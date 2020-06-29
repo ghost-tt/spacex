@@ -38,7 +38,7 @@ export class RocketInfo extends Component {
                                     <div className="p-grid p-align-center">
                                         {details.map((val, index) => {
                                             return (
-                                                <div className="p-col-6" key={val.first_flight + index} >
+                                                <div className="p-col-12 p-md-6" key={val.first_flight + index} >
                                                     <Card>
                                                         <div className="p-grid">
                                                             <div className="p-col-12">

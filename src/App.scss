@@ -36,13 +36,14 @@
 
 
 video {
-    min-height: 63%;
+    min-height: 100%;
     min-width: 100%;
+    width: 100%;
     overflow: unset;
     overflow-x: hidden;
     overflow-y: hidden;
     height: 100vh;
-    object-fit: fill;
+    object-fit: initial;
 }
 
 .p-splitbutton.p-buttonset .p-button {

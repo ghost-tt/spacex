@@ -46,16 +46,16 @@ class Timer extends Component {
                     <div className="card">
                         <div className="p-grid p-align-center p-justify-center"  style={{ padding: '2rem'}}>
                             <div className="p-col-12 textAlignCenter"><p className="title">SpaceX Launch CountDown</p></div>
-                            <div className="p-col-3 textAlignCenter">
+                            <div className="p-col p-md-3 textAlignCenter">
                                 <Card title={String(days)} subTitle="Days"></Card>
                             </div>
-                            <div className="p-col-3 textAlignCenter">
+                            <div className="p-col p-md-3 textAlignCenter">
                                 <Card title={String(hours)} subTitle="Hours"></Card>
                             </div>
-                            <div className="p-col-3 textAlignCenter">
+                            <div className="p-col p-md-3 textAlignCenter">
                                 <Card title={String(minutes)} subTitle="Minutes"></Card>
                             </div>
-                            <div className="p-col-3 textAlignCenter">
+                            <div className="p-col p-md-3 textAlignCenter">
                                 <Card title={String(seconds)} subTitle="Seconds"></Card>
                             </div>
                         </div>

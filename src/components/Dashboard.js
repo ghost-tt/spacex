@@ -29,7 +29,7 @@ export class Dashboard extends Component {
                 {
                     this.state.data &&
                     <div>
-                        <div style={{ position: 'absolute', bottom: '5rem', right: '0' }}>
+                        <div style={{ position: 'absolute', bottom: '5rem', right: '0', textAlign: 'center' }}>
                             <div className="d">
                                 <div className="p-grid">
                                     <p className="p-col-12  company_info" style={{ fontSize: '1.2rem', fontWeight: '600', color: 'white', padding: '0', marginBlockStart: '0', marginBlockEnd: '0' }}>Welcome to {this.state.data.name} ( {this.state.data.headquarters.state} )</p>

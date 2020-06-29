@@ -29,7 +29,7 @@ export class LatestLaunch extends Component {
         const details = this.state.data;
 
         return (
-            <div className="p-grid">
+            <div className="p-grid dashboard_container dashboard_child_container">
                 <div className="p-col-12">
                     <div className="card">
                         <div className="p-grid p-align-center">
@@ -43,14 +43,14 @@ export class LatestLaunch extends Component {
                                                 {/* <div onClick={() => this.setState({ dialogVisible: true })} ><a>more details...</a></div>
                                                 <Dialog visible={this.state.dialogVisible} showHeader={false} dismissableMask={true} closeOnEscape={true} modal={true} onHide={() => this.setState({ dialogVisible: false })}> */}
                                                     <div className="p-grid border_box_parent">
-                                                            <div className="p-col-4 border_box">
+                                                            <div className="p-col-12 p-md-4 border_box">
                                                                     <div className="p-card-subtitle">Mission Information</div>
                                                                     <div>{details.mission_name}</div>
                                                                     <div>{details.launch_year}</div>
                                                                     <div>{details.launch_date_unix}</div>
                                                             </div>
 
-                                                            <div className="p-col-4 border_box">
+                                                            <div className="p-col-12 p-md-4 border_box">
                                                                     <div className="p-card-subtitle">Rocket Information</div>
                                                                     <div>{details.rocket.rocket_name}</div>
                                                                     {details.rocket.second_stage.payloads.map((val, index) => {
@@ -64,7 +64,7 @@ export class LatestLaunch extends Component {
                                                                     })}
                                                             </div>
 
-                                                            <div className="p-col-4 border_box">
+                                                            <div className="p-col-12 p-md-4 border_box">
                                                                     <div className="p-card-subtitle">Site Information</div>
                                                                     <div>{details.launch_site.site_name_long}</div>
                                                                     <div>{details.launch_site.site_name}</div>
